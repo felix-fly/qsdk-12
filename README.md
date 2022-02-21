@@ -12,7 +12,8 @@ sudo apt-get install -y opam ocaml-nox git zip subversion build-essential flex w
 编译
 
 ```bash
-cd qsdk_12
+git clone https://github.com/felix-fly/qsdk-12.git
+cd qsdk-12
 cp ax18.config .config
 make package/symlinks
 make defconfig
